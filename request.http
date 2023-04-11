@@ -1,0 +1,10 @@
+POST http://localhost:3100/
+Content-Type: application/json
+
+{
+    "first_name": "miracle", 
+    "last_name": "ola",
+    "email": "test@gmail.com",
+    "phone_number": "09072717472",
+    "password": "testing@1"
+}
