@@ -1,7 +1,7 @@
-import { User } from '..//users/user.entity';
-import { USER_REPOSITORY } from '../../../core/constants';
+import { User } from './user.entity';
+import { USER_REPOSITORY } from '../../core/constants';
 
-export const usersProviders = [
+export const UsersProviders = [
   {
     provide: USER_REPOSITORY,
     useValue: User,
